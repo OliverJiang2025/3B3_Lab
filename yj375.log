@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.28)  25 NOV 2025 19:51
+=======
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.12)  25 NOV 2025 14:53
+>>>>>>> 1ef28e9cea1116fd2abe5cbc8a45dad8707520de
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,6 +429,7 @@ Package caption Info: End \AtBeginDocument code.
 
 [1
 
+<<<<<<< HEAD
 {d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <./Figures/Figure1-2.jpg, id=11, 1708.3825pt x 1280.785pt>
 File: ./Figures/Figure1-2.jpg Graphic file (type jpg)
@@ -456,12 +461,49 @@ Package pdftex.def Info: ./Figures/Figure2-2-2.jpg  used on input line 108.
 [2 <./Figures/Figure1-2.jpg> <./Figures/Figure1-3.jpg> <./Figures/buck.jpg>]
 
 [3 <./Figures/Figure2-2-1.jpg> <./Figures/Figure2-2-2.jpg>] (./yj375.aux)
+=======
+]
+File: ./Figures/Figure1-2.jpg Graphic file (type bmp)
+<./Figures/Figure1-2.jpg>
+File: ./Figures/Figure1-3.jpg Graphic file (type bmp)
+<./Figures/Figure1-3.jpg>
+File: ./Figures/Buck.jpg Graphic file (type bmp)
+<./Figures/Buck.jpg>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[2]
+File: ./Figures/Figure2-2-1.jpg Graphic file (type bmp)
+<./Figures/Figure2-2-1.jpg>
+File: ./Figures/Figure2-2-2.jpg Graphic file (type bmp)
+<./Figures/Figure2-2-2.jpg>
+File: ./Figures/Figure2-3-1.jpg Graphic file (type bmp)
+<./Figures/Figure2-3-1.jpg>
+File: ./Figures/Figure2-3-2.jpg Graphic file (type bmp)
+<./Figures/Figure2-3-2.jpg>
+File: ./Figures/Figure2-3-3.jpg Graphic file (type bmp)
+<./Figures/Figure2-3-3.jpg>
+
+
+[3]
+
+[4]
+
+[5] (./yj375.aux)
+>>>>>>> 1ef28e9cea1116fd2abe5cbc8a45dad8707520de
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  32004 strings out of 473254
  817733 string characters out of 5722070
  1418781 words of memory out of 5000000
@@ -477,3 +519,14 @@ PDF statistics:
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+ 32339 strings out of 473832
+ 833764 string characters out of 5729481
+ 1442359 words of memory out of 5000000
+ 55104 multiletter control sequences out of 15000+600000
+ 565094 words of font info for 68 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 84i,8n,91p,411b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on yj375.pdf (5 pages).
+>>>>>>> 1ef28e9cea1116fd2abe5cbc8a45dad8707520de
