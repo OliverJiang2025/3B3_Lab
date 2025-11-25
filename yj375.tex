@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}[times]
+\documentclass[12pt]{article}
 
 \topmargin 0.0cm 
 \oddsidemargin 0.0in 
@@ -19,7 +19,7 @@
 \usepackage{amssymb}
 \usepackage{circuitikz}
 \usepackage{setspace}
-\doublespacing{}
+\doublespacing
 \begin{document}
 
 %\hspace{1cm}
@@ -34,15 +34,11 @@
 \large{\bf Part IIA Laboratory Report}
 \end{center}
 
-
-
-
 \vskip 1cm
 \begin{center}
 \fbox{\rule[0.0cm]{0cm}{1.0cm}
  \large{\bf 3B3 DC-DC Converters}\rule[-0.75cm]{0cm}{1.0cm} }
 \end{center}
-
 
 \vskip 1cm
 
@@ -53,18 +49,41 @@ Name: Yongqing Jiang \\
 CRSid: yj375  \\
 \vskip 0.2cm
  College: Peterhouse \\
-  \vskip 0.2cm
+\vskip 0.2cm
 
-%
 Date of Experiment: Nov 2025
-%
+
 \end{center}
 
 \vskip 1cm
 
-
-
 \section*{Exercise 1: Diode Bridge AC-DC Rectifier}
+\begin{figure}[htbp] 
+    \centering 
+    
+    \begin{minipage}[t]{0.45\textwidth}
+        \centering % 单个图在 minipage 内居中
+        \includegraphics[width=\linewidth]{Figure1-2.png} % width=\linewidth 让图片充满 minipage 宽度
+        % （可选）单个图的下方注释（非子标题）
+        \small 
+    \end{minipage}
+    \hfill % 两个图之间的水平间距（自动分配剩余空间）
+    % 第二个图：占页面 45% 宽度
+    \begin{minipage}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure1-3.png} % 替换为你的图片路径（PNG/JPEG/PDF 均可）
+        \small 
+    \end{minipage}
+    
+    % 整个并排图的总标题（可选）
+    \caption{}
+    \label{fig:two_figures_side_by_side} % 标签，用于后文引用（如 \ref{fig:two_figures_side_by_side}）
+\end{figure}
+
+
+
+
+
 \section*{Exercise 2: DC-DC Buck Converter}
 
 \section*{Exercise 3: DC-DC Boost Converter}
