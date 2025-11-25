@@ -83,6 +83,7 @@ Figure \ref{fig:ex1}.
 \section*{Exercise 2: DC-DC Buck Converter}
 The testing schematic of the DC-DC Buck Converter
 is shown by Figure \ref{fig:buck}.
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width = 1\linewidth]{Buck.jpg}
@@ -90,30 +91,95 @@ is shown by Figure \ref{fig:buck}.
     \label{fig:buck}
 \end{figure}
 
-The measurements are conducted by four channels of
+The measurements are carried by four channels of
 the oscilliscope.
-
+\begin{enumerate}
+    \item CH1: Gate pulse voltage $v_G$
+    \item CH2: Diode voltage $v_D$
+    \item CH3: Output DC voltage $V_o$
+    \item CH4: Inductor current $i_L$
+\end{enumerate}
+Note that CH4 measures the current via a current probe and
+shows the reading in V on display.
 
 \begin{figure}[htbp] 
     \centering 
     \begin{subfigure}[t]{0.4\textwidth} % 子图宽度可适度扩大
         \centering
         \includegraphics[width=\linewidth]{Figure2-2-1.jpg} 
-        \caption{Reading of 2-2 with CH3 = 12V}
+        \caption{Reading with $V_o$ = 12V}
         \label{fig:2-2-1}
     \end{subfigure}
     \hspace{2cm}
     \begin{subfigure}[t]{0.4\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Figure2-2-2.jpg}
-        \caption{Reading of 1-3 with CH3 = 18V}
+        \caption{Reading with $V_o$ = 18V}
         \label{subfig:2-2-2}
     \end{subfigure}
-    \caption{Two subfigures with manual gap}
-    \label{fig:two_subfigs}
+    \caption{Scope readings of section 2-2}
+    \label{fig:2-2}
 \end{figure}
 
+In Section 2-2, scope readings are taken with $V_o$ = 12V
+and $V_o$ = 18V. Duty ratio D = 0.45 for $V_o$ = 12V, 
+D = 0.68 for $V_o$ = 18V. 
 
+According to theory, the voltage 
+transfer ratio of a buck converter $M(D) = \frac{V_o}{V_d} = D$.
+So, the theoretical values of the two measurements should be
+$\frac{12}{30} = 0.4$ and $\frac{18}{20} = 0.6$ respectively.
+
+We can see that the measured duty ratios are about 10\% larger
+than the theoretical values for both cases. 
+This is due to non-ideal parts
+of circuits, mainly the extra voltage drop due to the diode 
+and the parasitic resistance of the inductor.
+
+Thus, for both ON and OFF states of the transistor,
+the DC output = $V_o - \Delta V$ is kept 
+constant actually. $V_o = DV_d$ should be larger than
+theoretical value of compensate this effect. As result,
+duty ratio is measured to be larger.
+
+In the next session, load resistor and
+inductors are explored by switching more inductors on. 
+The reading of scope
+is shown in Figure \ref{fig:2-3}.
+
+
+\begin{figure}[htbp] 
+    \centering 
+    \begin{subfigure}[t]{0.3\textwidth} % 子图宽度可适度扩大
+        \centering
+        \includegraphics[width=\linewidth]{Figure2-3-1.jpg} 
+        \caption{Reading with $L_3$ ON}
+        \label{fig:2-3-1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure2-3-2.jpg}
+        \caption{Reading with $L_3$ and $L_2$ ON}
+        \label{subfig:2-3-2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figure2-3-3.jpg}
+        \caption{Reading with $L_3$, $L_2$, and $L_1$ ON}
+        \label{subfig:2-3-3}
+    \end{subfigure}
+    \caption{Scope readings of section 2-3}
+    \label{fig:2-3}
+\end{figure}
+To find the load resistance $R_L = \frac{V_o}{I_o}$, output
+current $I_o$ should be obtained from the readings of 
+CH4, which measures the inductor current $i_L$. By making
+the assumption that the output smoothing capacitor is large
+enough that all ripple current goes into the capacitor, 
+$I_o = i_{L\text{avg}}$. This average value is obtained by
+the oscilliscope.
 
 
 \newpage
