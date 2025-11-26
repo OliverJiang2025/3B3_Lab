@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764102847.10764 "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" "yj375.pdf" "yj375" 1764102848.25277 0
+["pdflatex"] 1764116793.86339 "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" "yj375.pdf" "yj375" 1764116795.03143 0
   "Figures/Figure1-2.jpg" 1763599198 241055 fae5d8d1bd166bba6bf5449e782f7741 ""
   "Figures/Figure1-3.jpg" 1763599198 244038 ab6d56c11f061138567f33583b0ca05a ""
   "Figures/Figure2-2-1.jpg" 1764100726 254033 9198dcc69ed01d6bd384d52f4306b39a ""
@@ -36,6 +36,7 @@
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1735354005 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1735354005 35752 024fb6c41858982481f6968b5fc26508 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1735354005 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1735354005 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1735354005 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1735354005 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1735354005 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
@@ -155,9 +156,9 @@
   "d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735364177 5531417 0a89c760151e024fa577412803c80da5 ""
   "d:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735364328 3347727 91057d0bf701461324dbee820a349449 ""
   "d:/texlive/2024/texmf.cnf" 1735364163 713 e69b156964470283e0530f5060668171 ""
-  "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" 1764102846 6323 bef660e89da1e0fce598aa70d13b6e6a ""
-  "yj375.aux" 1764102848 1509 8b6c6b297b68ab91e0c8b19683a7bada "pdflatex"
-  "yj375.tex" 1764102846 6323 bef660e89da1e0fce598aa70d13b6e6a ""
+  "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" 1764116793 6927 4f1a1c7d76d5a2399575b632e92c1d42 ""
+  "yj375.aux" 1764116794 1509 c834aa63a19640d3d76305d0e9d9860f "pdflatex"
+  "yj375.tex" 1764116793 6927 4f1a1c7d76d5a2399575b632e92c1d42 ""
   (generated)
   "yj375.aux"
   "yj375.log"
