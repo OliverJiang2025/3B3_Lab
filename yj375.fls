@@ -199,11 +199,10 @@ INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Figures/Figure1-2.jpg
+INPUT ./Figures/Figure1-2.jpg
+INPUT ./Figures/Figure1-2.jpg
 OUTPUT yj375.pdf
-INPUT d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./Figures/Figure1-2.jpg
-INPUT ./Figures/Figure1-2.jpg
-INPUT ./Figures/Figure1-2.jpg
 INPUT ./Figures/Figure1-2.jpg
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ./Figures/Figure1-3.jpg
@@ -214,6 +213,7 @@ INPUT ./Figures/buck.jpg
 INPUT ./Figures/buck.jpg
 INPUT ./Figures/buck.jpg
 INPUT ./Figures/buck.jpg
+INPUT d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -290,6 +290,10 @@ INPUT ./Figures/Figure3-3-3.jpg
 INPUT ./Figures/Figure3-3-3.jpg
 INPUT ./Figures/Figure3-3-3.jpg
 INPUT ./Figures/Figure3-3-3.jpg
+INPUT ./Figures/Figure3-4.jpg
+INPUT ./Figures/Figure3-4.jpg
+INPUT ./Figures/Figure3-4.jpg
+INPUT ./Figures/Figure3-4.jpg
 INPUT yj375.aux
 INPUT d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

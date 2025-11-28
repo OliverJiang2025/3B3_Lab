@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1764351473.88562 "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" "yj375.pdf" "yj375" 1764351475.11597 0
+["pdflatex"] 1764370991.18009 "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" "yj375.pdf" "yj375" 1764370992.44208 0
   "Figures/Figure1-2.jpg" 1763599198 241055 fae5d8d1bd166bba6bf5449e782f7741 ""
   "Figures/Figure1-3.jpg" 1763599198 244038 ab6d56c11f061138567f33583b0ca05a ""
   "Figures/Figure2-2-1.jpg" 1764100726 254033 9198dcc69ed01d6bd384d52f4306b39a ""
@@ -13,6 +13,7 @@
   "Figures/Figure3-3-1.jpg" 1763599198 261250 622404201bd5aaf87164a0fd408378ce ""
   "Figures/Figure3-3-2.jpg" 1763599198 262981 7c7963c1aa4fe2a23304d7975371bca1 ""
   "Figures/Figure3-3-3.jpg" 1763599198 253726 b21d7352facfcb7205278ca6febac406 ""
+  "Figures/Figure3-4.jpg" 1763599198 260426 e5fb1601988313ae6c4476eb6f0b42a4 ""
   "Figures/boost.jpg" 1764350504 94267 ca06c8a3d510bb5da263136abc35bf9d ""
   "Figures/buck.jpg" 1764100298 130263 53eab574f87d8b02f76e864fd8839371 ""
   "d:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1735356684 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -164,9 +165,9 @@
   "d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1735364177 5531417 0a89c760151e024fa577412803c80da5 ""
   "d:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1735364328 3347727 91057d0bf701461324dbee820a349449 ""
   "d:/texlive/2024/texmf.cnf" 1735364163 713 e69b156964470283e0530f5060668171 ""
-  "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" 1764351473 10756 d3c55b87587ad4919bd7346bc49d28a2 ""
-  "yj375.aux" 1764351475 2724 3c40e4f8b89587a814f9febd2d6883b8 "pdflatex"
-  "yj375.tex" 1764351473 10756 d3c55b87587ad4919bd7346bc49d28a2 ""
+  "e:/Cambridge_Engineering/Part IIA/Coursework/3B3_Lab/yj375.tex" 1764370990 12445 43cb5728b86f8d58b03e69bb0a06f28a ""
+  "yj375.aux" 1764370992 2884 abcbb16497b3f3b6ad6f8f1ad63a63a1 "pdflatex"
+  "yj375.tex" 1764370990 12445 43cb5728b86f8d58b03e69bb0a06f28a ""
   (generated)
   "yj375.aux"
   "yj375.log"

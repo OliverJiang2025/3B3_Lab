@@ -28,19 +28,19 @@
 \Large{\bf CAMBRIDGE UNIVERSITY ENGINEERING DEPARTMENT}
 \end{center}
 
-\vskip 1cm
+\vskip 0.5cm
 
 \begin{center}
 \large{\bf Part IIA Laboratory Report}
 \end{center}
 
-\vskip 1cm
+\vskip 0.5cm
 \begin{center}
 \fbox{\rule[0.0cm]{0cm}{1.0cm}
  \large{\bf 3B3 DC-DC Converters}\rule[-0.75cm]{0cm}{1.0cm} }
 \end{center}
 
-\vskip 1cm
+\vskip 0.5cm
 
 \begin{center}
 
@@ -51,13 +51,13 @@ CRSid: yj375  \\
  College: Peterhouse \\
 \vskip 0.2cm
 
-Date of Experiment: Nov 2025
+Date of Experiment: Nov. 2025
 
 \end{center}
 
 \vskip 1cm
 
-\newpage
+
 \section*{Exercise 1: Diode Bridge AC-DC Rectifier}
 The scope readings for exercise 1 are shown by
 Figure \ref{fig:ex1}.
@@ -305,18 +305,60 @@ We can conclude that the load resistance is about $21.6 \Omega$.
         \centering
         \includegraphics[width=\linewidth]{Figure3-3-2.jpg}
         \caption{Reading with $L_3$ and $L_2$ ON}
-        \label{subfig:3-3-2}
+        \label{fig:3-3-2}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.3\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Figure3-3-3.jpg}
         \caption{Reading with $L_3$, $L_2$, and $L_1$ ON}
-        \label{subfig:3-3-3}
+        \label{fig:3-3-3}
     \end{subfigure}
-    \caption{Scope readings of section 2-3}
+    \caption{Scope readings of section 3-3}
     \label{fig:3-3}
 \end{figure}
+
+The inductor current waveforms under different settings of
+value of inductance are Shown by Figure \ref{fig:3-3}. 
+As in Exercise 2, we can find the inductance values by measuring
+the peak-to-peak ripple current $\Delta I_L$ after specifying 
+whether the converter operates in CCM or DCM.
+
+From Figure \ref{fig:3-3-1} and \ref{fig:3-3-2}, we have CCM operation.
+With only $L_3$ ON, $\Delta I_L$ is found to be 0.824A 
+While $L_3$ and $L_2$ are ON, $\Delta I_L$ is 1.732A. The duty 
+ratio is set to be 0.43 in this session. 
+
+From $L = \frac{V_d D(1-D)}{f_s \Delta I_L}$,
+we can find that $L_3 = 44.6 \mu H$, and $L_2 // L_3 = 21.2 \mu H$.
+Thus, $L_2 = 40.4 \mu H$.
+For the last case in Figure \ref{fig:3-3-3}, the boost converter now operates in DCM.
+As in a boost converter under DCM, the voltage transfer ratio is given by:
+\begin{equation*}
+    M(D,K) = \frac{V_o}{V_d} = \frac{1 + \sqrt{1+\frac{4D^2}{K}}}{2}
+\end{equation*}
+By rearranging, we have $ K = \frac{D^2}{M(M-1)}$. With D = 0.43, M = 27.9/15 = 1.86,
+K = 0.116.
+Thus, $L_1 // L_2 // L_3 = \frac{KR}{2f_s} = 12.5 \mu H$.
+$L_1$ is 30.5 $\mu H$.
+
+In the last sesstion, the duty ratio is decreased untill $V_o = 25V$ to 
+validate the theoretical voltage transfer ratio in DCM. The reading is shown
+by Figure \ref{fig:3-4}.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width = 0.5\linewidth]{Figure3-4.jpg}
+    \caption{Scope reading of section 3-4}
+    \label{fig:3-4}
+\end{figure}
+
+For $M = \frac{V_o}{V_d} = \frac{25}{15} = 1.67$, and 
+the duty ratio is measured to be 0.35.
+The theoretical value is $D = \sqrt{{K M(M-1)}} = 0.36$,
+which is quite close to the measured value.
+
+
+
 
 
 
